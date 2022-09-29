@@ -10,7 +10,7 @@ hamburger.addEventListener("click", () => {
 
 overlay.addEventListener("click", () => {
   header.classList.remove("open");
-  header.classList.remove("stopScrolling");
+  document.body.classList.toggle("stopScrolling");
 });
 
 navLinkAll.forEach((navLink) => {
