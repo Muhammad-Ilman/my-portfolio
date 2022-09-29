@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Portfolio">
+  <meta name="description" content="M. Ilman Pratama Supardi Putra">
+  <meta name="keywords" content="portfolio, muhammad, ilman">
+  <meta name="author" content="M. Ilman Pratama Supardi Putra">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="landing-page" />
+  <meta property="og:title" content="Portfolio" />
+  <meta property="og:description" content="M. Ilman Pratama Supardi Putra" />
+  <meta property="og:url" content="https://gitlab.com/muhammad-ilman/" />
+  <meta property="og:image" content="meta.png" />
+
+  <title>My Portfolio</title>
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="glass"></div>
+
+    <header>
+      <div class="overlay"></div>
+      <nav class="nav-container">
+        <a href="#" class="logo">My<span>Portfolio. </span></a>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contacts" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="profile" id="home">
+        <div class="profile-info">
+          <p class="sub-heading">Hello I'am</p>
+          <h1 class="heading">M. Ilman Pratama Supardi Putra</h1>
+          <span>Student and Web Developer</span>
+          <div class="button">
+            <a href="mailto:muhammadilman.edu@gmail.com" class="border-btn">Contact me</a>
+            <a href="https://wa.me/message/JX6YRUOKKMD7F1" target="_blank" class="btn">Let's talk</a>
+          </div>
+        </div>
+        <div class="profile-image">
+          <img src="assets/img/ilman.png" alt="Muhammad Ilman">
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <p class="sub-heading">Get to Know</p>
+        <h1 class="heading">About Me</h1>
+        <div class="about-page">
+          <aside class="about-image">
+            <img src="assets/img/ilman-2.png" alt="Muhammad Ilman">
+          </aside>
+          <article class="about-info">
+            <div class="milestones">
+              <div class="ml-box active">
+                <svg width="25" height="32" viewBox="0 0 25 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M6.45922 22.6646C5.9161 22.1215 6.19922 22.2747 4.88924 21.924C4.29487 21.7647 3.77237 21.4584 3.29988 21.0915L0.464283 28.044C0.189911 28.7171 0.702405 29.4483 1.42865 29.4208L4.72174 29.2952L6.98672 31.6877C7.48671 32.2152 8.3642 32.0508 8.63857 31.3777L11.8917 23.4015C11.2142 23.779 10.4623 24.0003 9.68481 24.0003C8.46607 24.0003 7.32109 23.5259 6.45922 22.6646ZM24.314 28.044L21.4784 21.0915C21.0059 21.459 20.4835 21.7647 19.8891 21.924C18.5722 22.2765 18.861 22.1228 18.3191 22.6646C17.4572 23.5259 16.3116 24.0003 15.0929 24.0003C14.3154 24.0003 13.5635 23.7784 12.886 23.4015L16.1391 31.3777C16.4135 32.0508 17.2916 32.2152 17.791 31.6877L20.0566 29.2952L23.3497 29.4208C24.0759 29.4483 24.5884 28.7165 24.314 28.044ZM16.8266 21.2503C17.7816 20.2784 17.891 20.3622 19.251 19.9915C20.1191 19.7547 20.7978 19.0641 21.0303 18.1803C21.4978 16.4053 21.3766 16.6197 22.6522 15.321C23.2878 14.6741 23.5359 13.731 23.3034 12.8472C22.8366 11.0735 22.8359 11.321 23.3034 9.54541C23.5359 8.66166 23.2878 7.71855 22.6522 7.07168C21.3766 5.77294 21.4978 5.98669 21.0303 4.21234C20.7978 3.32859 20.1191 2.63798 19.251 2.4011C17.5085 1.92548 17.7185 2.04986 16.4416 0.750496C15.806 0.103628 14.8791 -0.149495 14.011 0.087378C12.2692 0.562373 12.5123 0.562998 10.7673 0.087378C9.89919 -0.149495 8.97232 0.103003 8.3367 0.750496C7.06109 2.04923 7.27109 1.92548 5.52798 2.4011C4.65986 2.63798 3.98112 3.32859 3.74862 4.21234C3.28175 5.98669 3.40238 5.77294 2.12677 7.07168C1.49115 7.71855 1.2424 8.66166 1.47552 9.54541C1.94239 11.3179 1.94302 11.0704 1.47552 12.8466C1.24302 13.7304 1.49115 14.6735 2.12677 15.321C3.40238 16.6197 3.28113 16.4053 3.74862 18.1803C3.98112 19.0641 4.65986 19.7547 5.52798 19.9915C6.92672 20.3728 7.03109 20.3128 7.95171 21.2503C8.77857 22.0922 10.0667 22.2428 11.0604 21.614C11.4578 21.3618 11.9188 21.2278 12.3895 21.2278C12.8602 21.2278 13.3211 21.3618 13.7185 21.614C14.7116 22.2428 15.9997 22.0922 16.8266 21.2503ZM6.49297 10.9979C6.49297 7.68355 9.13294 4.9967 12.3892 4.9967C15.6454 4.9967 18.2854 7.68355 18.2854 10.9979C18.2854 14.3122 15.6454 16.9991 12.3892 16.9991C9.13294 16.9991 6.49297 14.3122 6.49297 10.9979Z"
+                    fill="#4DB5FF" />
+                </svg>
+
+                <h2>Experience</h2>
+                <span>2+ Years</span>
+              </div>
+              <div class="ml-box">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M22.7118 15.0219L19.4952 12.9173L20.7337 10.6469C21.0324 10.0799 21.1889 9.44892 21.1897 8.80812V5.20882C21.1922 4.19677 20.8991 3.20602 20.3463 2.35824C19.7936 1.51046 19.0053 0.84254 18.0783 0.43651C17.1513 0.0304795 16.1258 -0.0959896 15.1279 0.0726321C14.13 0.241254 13.2031 0.697626 12.4609 1.38571L13.5481 2.55933C14.0624 2.08386 14.7042 1.76877 15.3949 1.65271C16.0856 1.53664 16.7951 1.62464 17.4365 1.90591C18.0779 2.18719 18.6233 2.64951 19.0059 3.2362C19.3884 3.82289 19.5914 4.50844 19.59 5.20882V8.80812C19.5898 9.18125 19.5005 9.54894 19.3293 9.88051L17.3839 13.4472L21.8359 16.3604C22.1298 16.5527 22.371 16.8154 22.5375 17.1246C22.704 17.4339 22.7906 17.7798 22.7894 18.1311V20.8058H19.1901V22.4055H24.3891V18.131C24.3907 17.5141 24.2381 16.9065 23.9452 16.3635C23.6523 15.8205 23.2283 15.3594 22.7118 15.0219Z"
+                    fill="#4DB5FF" />
+                  <path
+                    d="M16.2031 16.749L12.7571 14.6823L14.0838 12.4526C14.4038 11.8958 14.5715 11.2761 14.5724 10.6469V7.11219C14.5713 5.75736 13.9839 4.45824 12.9392 3.49985C11.8945 2.54146 10.4777 2.00207 8.99965 2C5.92994 2 3.4326 4.29335 3.4326 7.11219V10.6469C3.42933 11.2759 3.59515 11.8959 3.91541 12.4522L5.2494 14.694L1.82344 16.749C1.27074 17.0799 0.816927 17.532 0.503177 18.0644C0.189426 18.5968 0.0256735 19.1926 0.0267783 19.7977L0 24H18V19.8023C18.0017 19.1964 17.8382 18.5998 17.5244 18.0665C17.2106 17.5333 16.7564 17.0804 16.2031 16.749V16.749ZM16.2862 22.429H1.72377L1.74037 19.8023C1.73908 19.4574 1.83185 19.1176 2.01024 18.814C2.18864 18.5103 2.447 18.2523 2.76186 18.0634L7.51136 15.2146L5.41992 11.7C5.23862 11.3739 5.14485 11.0128 5.14641 10.6469V7.11219C5.14641 6.17475 5.55267 5.27569 6.27583 4.61281C6.99898 3.94994 7.97979 3.57754 9.00248 3.57754C10.0252 3.57754 11.006 3.94994 11.7291 4.61281C12.4523 5.27569 12.8586 6.17475 12.8586 7.11219V10.6469C12.8584 11.0133 12.7626 11.3744 12.5793 11.7L10.4951 15.2026L15.2647 18.0634C15.5795 18.2523 15.8379 18.5103 16.0163 18.814C16.1947 19.1177 16.2875 19.4574 16.2862 19.8023V22.429Z"
+                    fill="#4DB5FF" />
+                </svg>
+                <h2>Clients</h2>
+                <span>8+ Nationwide</span>
+              </div>
+              <div class="ml-box">
+                <svg width="25" height="27" viewBox="0 0 25 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12.389 7.20011C13.0517 7.20011 13.589 6.66285 13.589 6.00011C13.589 5.33737 13.0517 4.80011 12.389 4.80011C11.7262 4.80011 11.189 5.33737 11.189 6.00011C11.189 6.66285 11.7262 7.20011 12.389 7.20011Z"
+                    fill="#4DB5FF" />
+                  <path
+                    d="M5.18896 19.2001H19.589V21.6001H5.18896V19.2001ZM9.98896 12.9961L13.3394 16.3489L18.0578 11.6269L19.589 13.2001V8.40009H14.789L16.361 9.93008L13.3382 12.9529L9.98896 9.60009L5.18896 14.4001L6.88576 16.0969L9.98896 12.9961Z"
+                    fill="#4DB5FF" />
+                  <path
+                    d="M20.7892 2.40008H16.8316C16.7137 2.22266 16.5855 2.05236 16.4476 1.89008L16.4356 1.87568C15.5539 0.848786 14.3134 0.197226 12.9676 0.054085C12.5854 -0.0186794 12.1929 -0.0186794 11.8108 0.054085C10.4649 0.197226 9.22443 0.848786 8.34276 1.87568L8.33076 1.89008C8.19285 2.05197 8.06462 2.22187 7.94676 2.39889V2.40008H3.98916C3.03467 2.40104 2.11955 2.78063 1.44463 3.45555C0.769704 4.13048 0.390113 5.0456 0.38916 6.00008V22.8001C0.390113 23.7546 0.769704 24.6697 1.44463 25.3446C2.11955 26.0195 3.03467 26.3991 3.98916 26.4001H20.7892C21.7436 26.3991 22.6588 26.0195 23.3337 25.3446C24.0086 24.6697 24.3882 23.7546 24.3892 22.8001V6.00008C24.3882 5.0456 24.0086 4.13048 23.3337 3.45555C22.6588 2.78063 21.7436 2.40104 20.7892 2.40008ZM21.9892 22.8001C21.9892 23.1183 21.8627 23.4236 21.6377 23.6486C21.4126 23.8737 21.1074 24.0001 20.7892 24.0001H3.98916C3.671 23.9998 3.36596 23.8732 3.14098 23.6483C2.91601 23.4233 2.78948 23.1182 2.78916 22.8001V6.00008C2.78948 5.68192 2.91601 5.37688 3.14098 5.15191C3.36596 4.92693 3.671 4.8004 3.98916 4.80008H9.44916C9.58687 4.12191 9.9548 3.5122 10.4906 3.07426C11.0264 2.63632 11.6971 2.39708 12.3892 2.39708C13.0812 2.39708 13.7519 2.63632 14.2877 3.07426C14.8235 3.5122 15.1915 4.12191 15.3292 4.80008H20.7892C21.1073 4.8004 21.4124 4.92693 21.6373 5.15191C21.8623 5.37688 21.9888 5.68192 21.9892 6.00008V22.8001Z"
+                    fill="#4DB5FF" />
+                </svg>
+
+                <h2>Project</h2>
+                <span>3+ Completed
+                  Projects</span>
+              </div>
+            </div>
+            <div class="text-content">
+              <p>Lahir di Cianjur, 16 Maret 2006, saat ini bersekolah di Sekolah Menengah Kejuruan (SMK An-Nahl) Cibeber
+                - Cianjur, tinggal di kampung Baru Pasir,
+                Desa Cibokor, kec. Cibeber, kab. Cianjur Jawa barat 43262, saya seorang Web Developer dan <a
+                  href="youtube.com/codingacademychannel">Content Creator</a> di Youtube</p>
+            </div>
+            <div class="button">
+              <a href="https://wa.me/message/JX6YRUOKKMD7F1" target="_blank" class="btn">Let's talk</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experience" id="experience">
+        <p class="sub-heading">The Skills I have</p>
+        <h1 class="heading">Experiences</h1>
+        <div class="c-box">
+          <h2>All About Skils</h2>
+          <div class="skils">
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>Web Security</h2>
+                <span>Beginner</span>
+              </div>
+            </div>
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>Javascript</h2>
+                <span>Beginner</span>
+              </div>
+            </div>
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>Photoshop</h2>
+                <span>Beginner</span>
+              </div>
+            </div>
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>Corelldraw</h2>
+                <span>Experienced</span>
+              </div>
+            </div>
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>Codeigniter</h2>
+                <span>Beginner</span>
+              </div>
+            </div>
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>Figma</h2>
+                <span>Beginner</span>
+              </div>
+            </div>
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>Filmora</h2>
+                <span>Experienced</span>
+              </div>
+            </div>
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>Laravel</h2>
+                <span>Beginner</span>
+              </div>
+            </div>
+            <div class="skil-box">
+              <div class="icon">
+                <img src="assets/img/skils.svg">
+              </div>
+              <div class="skil-name">
+                <h2>HTML</h2>
+                <span>Experienced</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="certification" id="certification">
+        <p class="sub-heading">Academy and Bootcamp</p>
+        <h1 class="heading">Certification</h1>
+        <div class="cert">
+          <div class="cert-box">
+            <div class="cert-img">
+              <img src="assets/SERTIFIKAT/IMAGE/Belajar Dasar Pemrograman Web/Belajar Dasar Pemrograman Web.png">
+              <div class="cert-overlay">
+                <a href="assets/SERTIFIKAT/Belajar Dasar Pemrograman Web.pdf" class="prt-icon zoom-icon" style="--i: 0s"
+                  download>
+                  <i class="uil uil-cloud-download"></i>
+                </a>
+                <a href="https://www.dicoding.com/certificates/JMZVMDQJRZN9" target="_blank" class="prt-icon"
+                  style="--i: .15s">
+                  <i class="uil uil-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Belajar Dasar Pemrograman Web</h2>
+            </div>
+          </div>
+          <div class="cert-box">
+            <div class="cert-img">
+              <img
+                src="assets/SERTIFIKAT/IMAGE/Belajar Membuat Front-End Web untuk Pemula/Belajar Membuat Front-End Web untuk Pemula-1.png">
+              <div class="cert-overlay">
+                <a href="assets/SERTIFIKAT/Belajar Fundamental Front-End Web Development.pdf" class="prt-icon zoom-icon"
+                  style="--i: 0s" download>
+                  <i class="uil uil-cloud-download"></i>
+                </a>
+                <a href="https://www.dicoding.com/certificates/GRX5G6O6RX0M" target="_blank" class="prt-icon"
+                  style="--i: .15s">
+                  <i class="uil uil-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Belajar Membuat Front-End Web untuk Pemula</h2>
+            </div>
+          </div>
+          <div class="cert-box">
+            <div class="cert-img">
+              <img
+                src="assets/SERTIFIKAT/IMAGE/Belajar Fundamental Front-End Web Development/Belajar Fundamental Front-End Web Development-1.png">
+              <div class="cert-overlay">
+                <a href="assets/SERTIFIKAT/Belajar Fundamental Front-End Web Development.pdf" class="prt-icon zoom-icon"
+                  style="--i: 0s" download>
+                  <i class="uil uil-cloud-download"></i>
+                </a>
+                <a href="https://www.dicoding.com/certificates/MRZMK6GLLPYQ" target="_blank" class="prt-icon"
+                  style="--i: .15s">
+                  <i class="uil uil-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Belajar Fundamental Front-End Web Development</h2>
+            </div>
+          </div>
+          <div class="cert-box">
+            <div class="cert-img">
+              <img
+                src="assets/SERTIFIKAT/IMAGE/Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)/Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)-1.png">
+              <div class="cert-overlay">
+                <span class="prt-icon zoom-icon" style="--i: 0s">
+                  <i class="uil uil-cloud-download"></i>
+                </span>
+                <a href="https://www.dicoding.com/certificates/N9ZODL990PG5" target="_blank" class="prt-icon"
+                  style="--i: .15s">
+                  <i class="uil uil-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)</h2>
+            </div>
+          </div>
+          <div class="cert-box">
+            <div class="cert-img">
+              <img
+                src="assets/SERTIFIKAT/IMAGE/Belajar Dasar Pemrograman JavaScript/Belajar Dasar Pemrograman JavaScript-1.png">
+              <div class="cert-overlay">
+                <a href="assets/SERTIFIKAT/Belajar Dasar Pemrograman JavaScript.pdf" class="prt-icon zoom-icon"
+                  style="--i: 0s">
+                  <i class="uil uil-cloud-download"></i>
+                </a>
+                <a href="https://www.dicoding.com/certificates/MEPJ517L4P3V" target="_blank" class="prt-icon"
+                  style="--i: .15s">
+                  <i class="uil uil-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Belajar Dasar Pemrograman JavaScript</h2>
+            </div>
+          </div>
+          <div class="cert-box">
+            <div class="cert-img">
+              <img
+                src="assets/SERTIFIKAT/IMAGE/Belajar Membuat Aplikasi Back-End untuk Pemula/Belajar Membuat Aplikasi Back-End untuk Pemula-1.png">
+              <div class="cert-overlay">
+                <a href="assets/SERTIFIKAT/Belajar Membuat Aplikasi Back-End untuk Pemula.pdf"
+                  class="prt-icon zoom-icon" style="--i: 0s" download>
+                  <i class="uil uil-cloud-download"></i>
+                  </span>
+                  <a href="https://www.dicoding.com/certificates/MEPJ517L4P3V" target="_blank" class="prt-icon"
+                    style="--i: .15s">
+                    <i class="uil uil-external-link-alt"></i>
+                  </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Belajar Membuat Aplikasi Back-End untuk Pemula</h2>
+            </div>
+          </div>
+          <div class="cert-box">
+            <div class="cert-img">
+              <img src="assets/SERTIFIKAT/IMAGE/Memulai Pemrograman Dengan Dart/Memulai Pemrograman Dengan Dart-1.png">
+              <div class="cert-overlay">
+                <a href="assets/SERTIFIKAT/Memulai Pemrograman Dengan Dart.pdf" class="prt-icon zoom-icon"
+                  style="--i: 0s" download>
+                  <i class="uil uil-cloud-download"></i>
+                </a>
+                <a href="https://www.dicoding.com/certificates/ERZR5WOGQPYV" target="_blank" class="prt-icon"
+                  style="--i: .15s">
+                  <i class="uil uil-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Memulai Pemrograman Dengan Dart</h2>
+            </div>
+          </div>
+          <div class="cert-box">
+            <div class="cert-img">
+              <img
+                src="assets/SERTIFIKAT/IMAGE/Course Dasar-dasar Laravel 9 - Kampus biner/Course Dasar-dasar Laravel 9 - Kampus biner.png">
+
+              <div class="cert-overlay">
+                <a href="assets/SERTIFIKAT/Course Dasar-dasar Laravel 9 - Kampus biner.pdf" class="prt-icon zoom-icon"
+                  style="--i: 0s">
+                  <i class="uil uil-cloud-download"></i>
+                </a>
+                <a href="#" class="prt-icon" style="--i: .15s">
+                  <i class="uil uil-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Course Dasar-dasar Laravel 9 - Kampus biner</h2>
+            </div>
+          </div>
+          <div class="cert-box">
+            <div class="cert-img">
+              <img
+                src="assets/SERTIFIKAT/IMAGE/Sertifikat Pelatihan ASEAN DSE 2022 Fatihunnur Foundation x Asean Foundation/Sertifikat Pelatihan ASEAN DSE 2022 Fatihunnur Foundation x Asean Foundation-1.png">
+              <div class="cert-overlay">
+                <a href="assets/SERTIFIKAT/Sertifikat Pelatihan ASEAN DSE 2022 Fatihunnur Foundation x Asean Foundation.pdf"
+                  class="prt-icon zoom-icon" style="--i: 0s" download>
+                  <i class="uil uil-cloud-download"></i>
+                </a>
+                <a href="#" class="prt-icon" style="--i: .15s">
+                  <i class="uil uil-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cert-info">
+              <h2 class="cert-name">Sertifikat Pelatihan ASEAN DSE 2022 Fatihunnur Foundation x Asean Foundation</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="testimonials">
+        <p class="sub-heading">Review from Client</p>
+        <h1 class="heading">Testimonials</h1>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/img/testi3.png" alt="">
+                <div class="client-info">
+                  <h4>Mas Afa</h4>
+                  <h5>Founder <a href="#">@ab_media</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Design mookup kaosnya bagus banget, komunikasi dengan pelanggan juga ramah jadi memudahkan saat revisi,
+                harganya murah, selain itu design
+                flyer dan bannernya juga keren lho
+              </q>
+            </div>
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/img/testi2.png" alt="">
+                <div class="client-info">
+                  <h4>Husni Thamrin Aziz</h4>
+                  <h5>Staf IT <a href="https://www.instagram.com/husni.ta/">@husni.ta</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Aplikasinya sangat bagus, pengerjaan cepat.
+              </q>
+            </div>
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/img/testi2.png" alt="">
+                <div class="client-info">
+                  <h4>Indra Gunawan</h4>
+                  <h5>Student <a href="https://www.instagram.com/indragnwan___/">@indragnwan___</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Kualitas Id Cardnya sangat bagus, harga terjangkau. Ditambah dengan design yang enak dipandang mata,
+                terlihat sangat professional.
+              </q>
+            </div>
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/img/testi1.png" alt="">
+                <div class="client-info">
+                  <h4>Intan Ramadani</h4>
+                  <h5>Student <a href="https://www.instagram.com/intanrmadanii_/">@intanrmadanii_</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Makasih ya, gak nyangka sunting makalahnya bakal nyampe secepat itu baru aja chat ekh udah dateng lagi,
+                harganya murah, dan tata letak makalahnya terlihat professional.
+              </q>
+            </div>
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/img/testi1.png" alt="">
+                <div class="client-info">
+                  <h4>Nazwa</h4>
+                  <h5>Student of <a href="https://www.instagram.com/sman1.warungkondang/">@sman1.warungkondang</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Laporan Praktikum aku jadi enak dilihat dan keliatan rapi banget
+              </q>
+            </div>
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/img/testi1.png" alt="">
+                <div class="client-info">
+                  <h4>Messa Sindia Putri</h4>
+                  <h5>Student <a href="https://www.instagram.com/mesyasindiaputri12/">@mesyasindiaputri12</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Dikejar-kejar deadline untungnya ada jasa sunting makalah yang cepet, dan murah
+              </q>
+            </div>
+            <div class="swiper-slide">
+              <div class="client">
+                <img src="assets/img/testi1.png" alt="">
+                <div class="client-info">
+                  <h4>Siti Fatimah</h4>
+                  <h5>Freelancer <a href="https://www.linkedin.com/in/siti-fatimah-4955b0210/">view linkedin</a></h5>
+                </div>
+              </div>
+              <q class="text">
+                Wow, Designnya kereeeen banget plus harganya terjangkau
+              </q>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="contact" id="contacts">
+        <p class="sub-heading">Get in touch</p>
+        <h1 class="heading">Contact Me</h1>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-detail">
+              <i class="uil uil-envelope-add"></i>
+              <h3>Email</h3>
+              <p>muhammadilman.edu@gmail.com</p>
+              <a href="mailto:muhammadilman.edu@gmail.com" target="_blank" class="contact-link">Send a Message</a>
+            </div>
+            <div class="contact-detail">
+              <i class="uil uil-instagram"></i>
+              <h3>Instagram</h3>
+              <p>muhammadilman.06</p>
+              <a href="https://www.instagram.com/muhammadilman.06/" target="_blank" class="contact-link">Send a
+                Message</a>
+            </div>
+            <div class="contact-detail">
+              <i class="uil uil-whatsapp"></i>
+              <h3>Whatsapp</h3>
+              <p>+6285797443848</p>
+              <a href="https://wa.me/message/JX6YRUOKKMD7F1" target="_blank" class="contact-link">Send a Message</a>
+            </div>
+          </div>
+          <form action="index.html" class="contact-form">
+            <input type="text" class="form-input" placeholder="Your Full Name" required>
+            <input type="email" class="form-input" placeholder="Email" required>
+            <textarea placeholder="Type Message Here..." class="form-input" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2>#Submission</h2>
+      <div class="footer-links">
+        <a href="#home" class="f-link">Home</a>
+        <a href="#about" class="f-link">About</a>
+        <a href="#experience" class="f-link">Experience</a>
+        <a href="#testimonials" class="f-link">Testimonials</a>
+        <a href="#contacts" class="f-link">Contact</a>
+      </div>
+      <p>Design by <a href="https://www.figma.com/community/file/1142452460696910124" target="_blank">@elijahanibi</a>
+        from Figma
+        Community
+        <a href="https://www.figma.com/community/file/1142452460696910124" target="_blank">get a copy here</a>
+      </p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
