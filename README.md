@@ -1,17 +1,23 @@
 # My Portfolio
 
-
-
 ***
 
+Web Static ini dibuat untuk memenuhi submission Dicoding Academy pada kelas Dasar Pemrograman Web (Perpanjangan Sertifikat), dalam rangka Program Beasiswa dari [Lintastarta Cloudeka Digischool](https://lintasartadigischool.dicoding.com/lintasartadigischool/) dengan Deadline belajar seluruh kelas sampai : 25 Oktober 2022 - 23:59
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
+## Authors 
+Student and Web Developer
+```
+{
+  "fullname": "M. Ilman Pratama Supardi Putra",
+  "school": "SMK AN-Nahl"
+  "age": 16,
+}
+```
 ## License
-For open source projects, say how it is licensed.
+Harap izin terlebih dahulu sebelum fork via github.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Jenis Website ini adalah static one page atau yang lebih dikenal dengan landing page
+
+## Credits
+Desain diambil dari Figma Community secara gratis [dapatkan design disini](https://www.figma.com/community/file/1142452460696910124), lihat profil designer [@elijahanibi](https://www.figma.com/community/file/1142452460696910124)
